@@ -1,0 +1,30 @@
+{
+  "name": "nasasearch",
+  "version": "1.0.0",
+  "description": "A way to search for images in the NASA database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nasa",
+    "search",
+    "nodejs"
+  ],
+  "author": "Benjamin Beinish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bbeinish/nasasearch/issues"
+  },
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "request" : "^2.88.0"
+  },
+  "homepage": "https://github.com/bbeinish/nasasearch#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbeinish/nasasearch.git"
+  }
+}
